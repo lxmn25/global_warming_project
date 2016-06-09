@@ -1,0 +1,131 @@
+.background_image {
+	display: block;
+	position: static;
+	padding: 0;
+	z-index:0;
+	left:0;
+	top:0;
+	width:100%;
+	/*height:100%;*/
+}
+
+#container1 {
+	background-image: url("http://completesolar.com/wp-content/uploads/2013/06/solar-panels-with-sky-reflecting1.jpg");
+	/*background-attachment: fixed;*/
+	background-repeat: repeat-x;
+	padding: 0;
+	/*float: left;*/
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+#subtitle {
+	position: absolute;
+	display: block;
+	text-align: center;
+	background-color: gray;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	height: 25%;
+	margin: auto;
+	/*color: white;*/
+}
+
+#main1 {
+	position: absolute;
+	display: block;
+	text-align: center;
+	/*background-color: gray;*/
+	/*opacity: 0.5;*/
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 25%;
+	margin: auto;
+	color: white;
+	font-size: 2em;
+	
+}
+
+
+.image {
+	width:100%;
+	height:100%;
+}
+
+#container2 {
+	/*display: inline;*/
+	background-image: url("http://mediad.publicbroadcasting.net/p/michigan/files/201406/wind_farm_Middelgrunder_KimHansen.jpg");
+	/*background-attachment: fixed;*/
+	background-repeat: repeat-x;
+	padding: 0;
+	top: 1000px;
+	/*float: left;*/
+	position: relative;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+#p1 {
+	display: block;
+	position: absolute;
+	margin: auto;
+	color: black;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 1.9em;
+	width: 70%;
+	height: 70%;
+	background-color: gray;
+	opacity: 0.5;
+}
+
+ul {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.7;
+}
+
+li {
+    float: right;
+    /*color: white;*/
+}
+
+#title {
+/*	top: 0;
+	left: 0;*/
+	position: fixed;
+	padding: 14px 16px;
+	color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
