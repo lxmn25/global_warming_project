@@ -1,94 +1,84 @@
-.background_image {
-	display: block;
-	position: static;
+html, body {
 	padding: 0;
-	z-index:0;
-	left:0;
-	top:0;
+	margin: 0;
+	font-family: "Inconsolata", serif;
+}
+
+.panel1,.panel2,.panel3 {
 	width:100%;
-	/*height:100%;*/
+	height:50em; /*why cant I make this 100%*/
 }
 
-#container1 {
+.panel1 {
 	background-image: url("http://completesolar.com/wp-content/uploads/2013/06/solar-panels-with-sky-reflecting1.jpg");
-	/*background-attachment: fixed;*/
-	background-repeat: repeat-x;
-	padding: 0;
-	/*float: left;*/
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	margin: auto;
+	background-size: cover;
+	opacity: 0.5;
 }
 
-#subtitle {
+#bg_box {
 	position: absolute;
-	display: block;
-	text-align: center;
-	background-color: gray;
-	opacity: 0.5;
 	top: 0;
 	left: 0;
-	right: 0;
 	bottom: 0;
-	width: 50%;
-	height: 25%;
+	right: 0;
 	margin: auto;
-	/*color: white;*/
+	width: 60%;
+	height: 20%;
+	/*text-align: center;*/
+/*	width: 100px;
+	height: 100px;*/
+	background-color: white;
+	opacity: 0.5;
 }
 
 #main1 {
 	position: absolute;
-	display: block;
+	font-size: 40px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
 	text-align: center;
-	/*background-color: gray;*/
-	/*opacity: 0.5;*/
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 25%;
-	margin: auto;
-	color: white;
-	font-size: 2em;
-	
+	width: 60%;
+	height: 6%;
+	font-weight: bold;
+/*	border-style: solid;
+	border-width: 3px;
+	opacity: 1;*/
 }
 
+.panel2 {
+	background-color: white;
 
-.image {
-	width:100%;
-	height:100%;
 }
 
-#container2 {
-	/*display: inline;*/
-	background-image: url("http://mediad.publicbroadcasting.net/p/michigan/files/201406/wind_farm_Middelgrunder_KimHansen.jpg");
-	/*background-attachment: fixed;*/
-	background-repeat: repeat-x;
-	padding: 0;
-	top: 1000px;
-	/*float: left;*/
+#p2_container {
 	position: relative;
-	height: 100%;
-	width: 100%;
-	margin: auto;
+	/*top: 180px;*/
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 80%;
+	height: 80%;
+	border-width: 3px;
+	border-style: dotted;
 }
 
-#p1 {
-	display: block;
-	position: absolute;
-	margin: auto;
-	color: black;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	font-size: 1.9em;
-	width: 70%;
-	height: 70%;
-	background-color: gray;
+img {
+	float: left;
+	/*left: ;*/
+	padding: 20px;
+}
+
+img:hover {
 	opacity: 0.5;
+}
+
+.panel3 {
+	background-color: red;
+
 }
 
 ul {
@@ -106,12 +96,9 @@ ul {
 
 li {
     float: right;
-    /*color: white;*/
 }
 
 #title {
-/*	top: 0;
-	left: 0;*/
 	position: fixed;
 	padding: 14px 16px;
 	color: white;
@@ -125,7 +112,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
