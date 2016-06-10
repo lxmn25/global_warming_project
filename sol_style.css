@@ -1,7 +1,12 @@
 html, body {
 	padding: 0;
 	margin: 0;
-	font-family: "Inconsolata", serif;
+	font-family: "Century Gothic";
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 40px;
 }
 
 .panel1,.panel2,.panel3 {
@@ -10,9 +15,8 @@ html, body {
 }
 
 .panel1 {
-	background-image: url("http://completesolar.com/wp-content/uploads/2013/06/solar-panels-with-sky-reflecting1.jpg");
+	background-image: url("http://kazakhstan2050.com/wp-content/uploads/2013/06/shutterstock_120579910.jpg");
 	background-size: cover;
-	opacity: 0.5;
 }
 
 #bg_box {
@@ -22,18 +26,15 @@ html, body {
 	bottom: 0;
 	right: 0;
 	margin: auto;
-	width: 60%;
-	height: 20%;
-	/*text-align: center;*/
-/*	width: 100px;
-	height: 100px;*/
+	width: 55%;
+	height: 10%;
 	background-color: white;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 #main1 {
 	position: absolute;
-	font-size: 40px;
+	font-size: 38px;
 	top: 0;
 	left: 0;
 	bottom: 0;
@@ -42,34 +43,47 @@ html, body {
 	text-align: center;
 	width: 60%;
 	height: 6%;
-	font-weight: bold;
-/*	border-style: solid;
-	border-width: 3px;
-	opacity: 1;*/
+	font-color: #2B2B2B;
 }
 
 .panel2 {
 	background-color: white;
+	margin: 0;
 
+}
+
+.panel2 h1 {
+	margin: 55px 0 18px 0;
 }
 
 #p2_container {
 	position: relative;
-	/*top: 180px;*/
 	left: 0;
 	bottom: 0;
 	right: 0;
 	margin: 0 auto;
 	width: 80%;
 	height: 80%;
-	border-width: 3px;
-	border-style: dotted;
 }
+
+#p2_text {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	padding: 10px;
+	width: 76%;
+	height: 35%;
+	font-size: 20px;
+}
+
 
 img {
 	float: left;
-	/*left: ;*/
-	padding: 20px;
+	margin-left: 10%;
+	padding: 25px 20px;
+
 }
 
 img:hover {
@@ -77,41 +91,100 @@ img:hover {
 }
 
 .panel3 {
-	background-color: red;
-
+	background-image: url("http://www.motherearthnews.com/~/media/Images/MEN/Editorial/Articles/Online%20Articles/2012/12-01/Electric%20Cars%20Increasingly%20More%20Available%20and%20More%20Appealing%20to%20the%20Public/ev-in-field.jpg");
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-ul {
-	position: fixed;
-	top: 0;
+#p3_container {
+	background-color: rgba(255, 255, 255, 0.8);
+	position: relative;
+	top: 25%;
 	left: 0;
-	width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    opacity: 0.7;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 80%;
+	height: 49%;
 }
 
-li {
-    float: right;
+#p3_text {
+	/*padding: 20px;*/
+	font-size: 18px;
 }
 
-#title {
-	position: fixed;
-	padding: 14px 16px;
-	color: white;
+#q3 {
+	/*text-align: center;*/
+	padding: 15px 15px 0 15px;
+	font-size: 30px;
+}
+/*
+#p3_col1 {
+	float: left;
+	width: 40%;
+	height: 40%;
+	padding: 0 50px;
+}*/
+
+#p3_col1 {
+	float: left;
+	width: 43%;
+	height: 40%;
+	padding: 0 30px 0 30px;
+}
+
+#p3_col2 {
+	float: left;
+	width: 43%;
+	height: 40%;
+	padding: 0 15px 0 15px;
+}
+
+nav {
+  background-color:rgba(255,255,255,0.8);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+
+  line-height: 50px;
+  height: 50px;
+}
+
+nav h1 {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  left: 2%;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  right: 0;
+  font-size: 20px;
+}
+
+nav li {
+  position: relative;
+  display: inline-block;
+  list-style: none;
 }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0 15px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: aliceblue;
 }
