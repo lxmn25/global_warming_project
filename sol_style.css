@@ -79,14 +79,13 @@ h1 {
 }
 
 
-img {
+.linkimg {
 	float: left;
 	margin-left: 10%;
 	padding: 25px 20px;
-
 }
 
-img:hover {
+a img:hover {
 	opacity: 0.5;
 }
 
@@ -105,12 +104,11 @@ img:hover {
 	bottom: 0;
 	right: 0;
 	margin: 0 auto;
-	width: 80%;
-	height: 49%;
+	width: 75%;
+	height: 45%;
 }
 
 #p3_text {
-	/*padding: 20px;*/
 	font-size: 18px;
 }
 
@@ -118,14 +116,9 @@ img:hover {
 	/*text-align: center;*/
 	padding: 15px 15px 0 15px;
 	font-size: 30px;
+	margin-bottom: 0;
 }
-/*
-#p3_col1 {
-	float: left;
-	width: 40%;
-	height: 40%;
-	padding: 0 50px;
-}*/
+
 
 #p3_col1 {
 	float: left;
