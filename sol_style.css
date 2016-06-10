@@ -113,7 +113,6 @@ a img:hover {
 }
 
 #q3 {
-	/*text-align: center;*/
 	padding: 15px 15px 0 15px;
 	font-size: 30px;
 	margin-bottom: 0;
@@ -135,39 +134,39 @@ a img:hover {
 }
 
 nav {
-  background-color:rgba(255,255,255,0.8);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-  width: 100%;
+	background-color:rgba(255,255,255,0.8);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	width: 100%;
 
-  line-height: 50px;
-  height: 50px;
+	line-height: 50px;
+	height: 50px;
 }
 
 nav h1 {
-  position: absolute;
-  top: 0;
-  padding: 0;
-  margin: 0;
-  left: 2%;
-  font-size: 20px;
-  text-decoration: none;
+	position: absolute;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	left: 2%;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 nav ul {
-  position: absolute;
-  top: 0;
-  margin: 0;
-  right: 0;
-  font-size: 20px;
+	position: absolute;
+	top: 0;
+	margin: 0;
+	right: 0;
+	font-size: 20px;
 }
 
 nav li {
-  position: relative;
-  display: inline-block;
-  list-style: none;
+	position: relative;
+	display: inline-block;
+	list-style: none;
 }
 
 li a {
