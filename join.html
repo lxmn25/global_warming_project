@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Join - Global Warming</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -18,39 +18,51 @@
     <article>
       <div class="container">
         <img class="background" src="images/polarbear.jpg" />
-        <div class="quote">
-          <form class="my-form" action="/subscribe" method="post">
-            <input type="text" placeholder="Enter your email address" />
-            <input type="submit" value="Subscribe!">
-          </form>
-          <span class="author">- James Hansen</span>
-        </div>
+
+          <div id="formbox">
+            <p class="formTitle">
+              Sign up to get involved!
+            </p>
+            <form>
+              <p class="name">
+                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+              </p>
+              <p class="email">
+                <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+              </p>
+              <div class="submit">
+                <input type="submit" value="SEND" id="button"/>
+                <div class="ease"></div>
+              </div>
+            </form>
+          </div>
+
       </div>
       <div class="containerbottom">
         <span class="storiesTitle">RESOURCES</span>
         <span class="subheading">Learn more about the science</span>
         <div class="stories">
           <div class="box">
-            <a target="_new" href="http://voices.nationalgeographic.com/2013/05/30/where-will-the-polar-bears-go-as-the-arctic-ice-melts-under-their-feet/">
-              <img src="images/kikebear.jpg" />
+            <a target="_new" href="https://www.nrdc.org/stories/global-warming-101">
+              <img src="images/nrdc.jpg" />
               <p>
-                Where will polar bears go...
+                Global Warming 101
               </p>
             </a>
           </div>
           <div class="box">
-            <a target="_new" href="http://www.cnn.com/2015/06/01/asia/india-heat-wave-deaths/">
-              <img src="images/india.png" />
+            <a target="_new" href="http://www.climatehotmap.org/">
+              <img src="images/map.png" />
               <p>
-                India heat wave kills 2,330
+                Climate Hot Map
               </p>
             </a>
           </div>
           <div class="box">
             <a target="_new" href="http://www.livescience.com/49727-more-tornadoes-global-warming.html">
-              <img src="images/tornado.jpg" />
+              <img src="images/scientist.jpg" />
               <p>
-                Global Warming May Spawn More Southeast US Tornadoes
+                Union of Concerned Scientists
               </p>
             </a>
           </div>
